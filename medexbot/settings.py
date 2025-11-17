@@ -69,7 +69,7 @@ TELNETCONSOLE_ENABLED = False
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
    # 'medexbot.middlewares.MedexbotDownloaderMiddleware': 543,
-    'medexbot.proxy_middlewares.ProxyMiddleware': 350,
+    # 'medexbot.proxy_middlewares.ProxyMiddleware': 350,  # Disabled for this task
 }
 
 # Enable or disable extensions

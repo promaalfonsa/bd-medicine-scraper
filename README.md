@@ -53,6 +53,28 @@ python manage.py <spider_name>
 ```
 ex - `python manage.py med`
 
+## Export Medicine Data to CSV
+
+To scrape and export medicine data to CSV files:
+
+### Quick Start (Automated)
+```bash
+python scrape_and_export.py
+```
+
+This will scrape all medicine data and export it to `Scraped/medicines_list.csv` with the following columns:
+- Name of the Medicine
+- Type of the Medicine (Allopathic/Herbal)
+- Usage of the Medicine
+
+### Manual Export
+If you already have data in the database, you can export it directly:
+```bash
+python manage.py export_medicines_csv
+```
+
+See [SCRAPING_GUIDE.md](SCRAPING_GUIDE.md) for detailed instructions.
+
 
 ## Data Analytics
 
